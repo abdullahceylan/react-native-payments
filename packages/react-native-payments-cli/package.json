@@ -4,7 +4,9 @@
   "bin": "index.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "repository": "https://github.com/naoufal/react-native-payments/tree/master/packages/react-native-payments-cli",
   "keywords": [
@@ -19,11 +21,13 @@
     "cli-table": "^0.3.1",
     "inquirer": "^3.2.0",
     "meow": "^3.7.0",
-    "xcode": "^0.9.3"
+    "xcode": "^0.9.3",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "react-native-payments": "^0.1.2",
     "react-native-payments-addon-braintree": "4.8.4",
     "react-native-payments-addon-stripe": "11.1.0"
-  }
+  },
+  "snyk": true
 }
