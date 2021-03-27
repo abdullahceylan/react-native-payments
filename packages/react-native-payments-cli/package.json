@@ -19,7 +19,7 @@
     "cli-table": "^0.3.1",
     "inquirer": "^3.2.0",
     "meow": "^3.7.0",
-    "xcode": "^0.9.3"
+    "xcode": "^2.0.0"
   },
   "devDependencies": {
     "react-native-payments": "^0.1.2",
