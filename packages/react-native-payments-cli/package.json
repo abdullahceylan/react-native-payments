@@ -18,7 +18,7 @@
     "chalk": "^2.0.1",
     "cli-table": "^0.3.1",
     "inquirer": "^3.2.0",
-    "meow": "^3.7.0",
+    "meow": "^8.0.0",
     "xcode": "^0.9.3"
   },
   "devDependencies": {
